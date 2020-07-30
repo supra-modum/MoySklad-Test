@@ -1,0 +1,15 @@
+package hello.world
+
+import slinky.web.ReactDOM
+import org.scalajs.dom.document
+import slinky.web.html._
+
+import org.scalatest.FunSuite
+
+class AppTest extends FunSuite {
+  test("Renders without crashing") {
+    val div = document.createElement("div")
+    ReactDOM.render(App(), div)
+    ReactDOM.unmountComponentAtNode(div)
+  }
+}

@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [moy-sklad / Compile / fastOptJS] Found inputs: /Users/ekaterinazaslavskaa/moy-sklad/*.{java,scala},/Users/ekaterinazaslavskaa/moy-sklad/src/main/java/**/*.{java,scala},/Users/ekaterinazaslavskaa/moy-sklad/src/main/resources/**/*,/Users/ekaterinazaslavskaa/moy-sklad/src/main/scala/**/*.{java,scala},/Users/ekaterinazaslavskaa/moy-sklad/src/main/scala-2.13/**/*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for moy-sklad/fastOptJS...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m

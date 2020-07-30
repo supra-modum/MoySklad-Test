@@ -1,0 +1,13 @@
+[0m[[0m[0minfo[0m] [0m[0mBuilding webpack library bundles for moy-sklad-fastopt in /Users/ekaterinazaslavskaa/moy-sklad/target/streams/_global/_global/_global/streams/fastOptJS-webpack-libraries[0m
+[0m[[0m[0minfo[0m] [0m[0mWriting scalajs.webpack.config.js[0m
+[0m[[0m[0mdebug[0m] [0m[0mCommand: node /Users/ekaterinazaslavskaa/moy-sklad/target/scala-2.13/scalajs-bundler/main/node_modules/webpack/bin/webpack --bail --profile --json --config /Users/ekaterinazaslavskaa/moy-sklad/target/scala-2.13/scalajs-bundler/main/webpack-fastopt.config.js[0m
+[0m[[0m[0minfo[0m] [0m[0mVersion: 4.43.0[0m
+[0m[[0m[0minfo[0m] [0m[0mHash: c6a7de27a5515632dd80[0m
+[0m[[0m[0minfo[0m] [0m[0mTime: 1964ms[0m
+[0m[[0m[0minfo[0m] [0m[0mPath: /Users/ekaterinazaslavskaa/moy-sklad/target/scala-2.13/scalajs-bundler/main/dist[0m
+[0m[[0m[0minfo[0m] [0m[0mBuilt at 2020-07-30T11:05:58.884736[0m
+[0m[[0m[0minfo[0m] [0m[0m               Asset      Size                            Chunks[0m
+[0m[[0m[0minfo[0m] [0m[0m         favicon.ico      3870   [emitted]                    [][0m
+[0m[[0m[0minfo[0m] [0m[0m          index.html      1280   [emitted]                    [][0m
+[0m[[0m[0minfo[0m] [0m[0m       manifest.json       317   [emitted]                    [][0m
+[0m[[0m[0minfo[0m] [0m[0mmoy-sklad-fastopt.js   3352999   [emitted]   [moy-sklad-fastopt][0m
