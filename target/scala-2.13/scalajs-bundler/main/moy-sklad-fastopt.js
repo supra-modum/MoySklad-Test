@@ -3514,32 +3514,32 @@ function $m_Lhello_world_App$() {
   };
   return $n_Lhello_world_App$
 }
-class $c_Lhello_world_MyComponent$ extends $c_Lslinky_core_StatelessComponentWrapper {
+class $c_Lhello_world_ProductItemList$ extends $c_Lslinky_core_StatelessComponentWrapper {
   constructor() {
     super();
     $ct_Lslinky_core_BaseComponentWrapper__Lslinky_core_StateReaderProvider__Lslinky_core_StateWriterProvider__(this, $m_Lslinky_readwrite_Reader$().Lslinky_readwrite_Reader$__f_unitReader, $m_Lslinky_readwrite_Writer$().Lslinky_readwrite_Writer$__f_unitWriter)
   };
   apply__T__sjs_js_Array(item) {
-    const $$x1 = new $c_Lhello_world_MyComponent$Props(item);
-    const constructor = $a_Lhello_world_MyComponent();
+    const $$x1 = new $c_Lhello_world_ProductItemList$Props(item);
+    const constructor = $a_Lhello_world_ProductItemList();
     return this.apply__O__sjs_js_Dynamic__sjs_js_Array($$x1, constructor)
   };
 }
-const $d_Lhello_world_MyComponent$ = new $TypeData().initClass({
-  Lhello_world_MyComponent$: 0
-}, false, "hello.world.MyComponent$", {
-  Lhello_world_MyComponent$: 1,
+const $d_Lhello_world_ProductItemList$ = new $TypeData().initClass({
+  Lhello_world_ProductItemList$: 0
+}, false, "hello.world.ProductItemList$", {
+  Lhello_world_ProductItemList$: 1,
   Lslinky_core_StatelessComponentWrapper: 1,
   Lslinky_core_BaseComponentWrapper: 1,
   O: 1
 });
-$c_Lhello_world_MyComponent$.prototype.$classData = $d_Lhello_world_MyComponent$;
-let $n_Lhello_world_MyComponent$ = (void 0);
-function $m_Lhello_world_MyComponent$() {
-  if ((!$n_Lhello_world_MyComponent$)) {
-    $n_Lhello_world_MyComponent$ = new $c_Lhello_world_MyComponent$()
+$c_Lhello_world_ProductItemList$.prototype.$classData = $d_Lhello_world_ProductItemList$;
+let $n_Lhello_world_ProductItemList$ = (void 0);
+function $m_Lhello_world_ProductItemList$() {
+  if ((!$n_Lhello_world_ProductItemList$)) {
+    $n_Lhello_world_ProductItemList$ = new $c_Lhello_world_ProductItemList$()
   };
-  return $n_Lhello_world_MyComponent$
+  return $n_Lhello_world_ProductItemList$
 }
 const $f_jl_Boolean__equals__O__Z = (function($thiz, that) {
   return ($thiz === that)
@@ -3901,11 +3901,11 @@ const $f_Lslinky_readwrite_CoreWriters__$init$__V = (function($thiz) {
   }))($thiz));
   $thiz.Lslinky_readwrite_Writer$__f_inclusiveRangeWriter = $thiz.Lslinky_readwrite_Writer$__f_rangeWriter
 });
-class $c_Lhello_world_MyComponent$Props extends $c_O {
+class $c_Lhello_world_ProductItemList$Props extends $c_O {
   constructor(item) {
     super();
-    this.Lhello_world_MyComponent$Props__f_item = null;
-    this.Lhello_world_MyComponent$Props__f_item = item
+    this.Lhello_world_ProductItemList$Props__f_item = null;
+    this.Lhello_world_ProductItemList$Props__f_item = item
   };
   productPrefix__T() {
     return "Props"
@@ -3914,7 +3914,7 @@ class $c_Lhello_world_MyComponent$Props extends $c_O {
     return 1
   };
   productElement__I__O(x$1) {
-    return ((x$1 === 0) ? this.Lhello_world_MyComponent$Props__f_item : $m_sr_Statics$().ioobe__I__O(x$1))
+    return ((x$1 === 0) ? this.Lhello_world_ProductItemList$Props__f_item : $m_sr_Statics$().ioobe__I__O(x$1))
   };
   productIterator__sc_Iterator() {
     return new $c_sr_ScalaRunTime$$anon$1(this)
@@ -3929,33 +3929,33 @@ class $c_Lhello_world_MyComponent$Props extends $c_O {
   equals__O__Z(x$1) {
     if ((this === x$1)) {
       return true
-    } else if ((x$1 instanceof $c_Lhello_world_MyComponent$Props)) {
-      const Props$1 = $as_Lhello_world_MyComponent$Props(x$1);
-      return (this.Lhello_world_MyComponent$Props__f_item === Props$1.Lhello_world_MyComponent$Props__f_item)
+    } else if ((x$1 instanceof $c_Lhello_world_ProductItemList$Props)) {
+      const Props$1 = $as_Lhello_world_ProductItemList$Props(x$1);
+      return (this.Lhello_world_ProductItemList$Props__f_item === Props$1.Lhello_world_ProductItemList$Props__f_item)
     } else {
       return false
     }
   };
 }
-function $as_Lhello_world_MyComponent$Props(obj) {
-  return (((obj instanceof $c_Lhello_world_MyComponent$Props) || (obj === null)) ? obj : $throwClassCastException(obj, "hello.world.MyComponent$Props"))
+function $as_Lhello_world_ProductItemList$Props(obj) {
+  return (((obj instanceof $c_Lhello_world_ProductItemList$Props) || (obj === null)) ? obj : $throwClassCastException(obj, "hello.world.ProductItemList$Props"))
 }
-function $isArrayOf_Lhello_world_MyComponent$Props(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lhello_world_MyComponent$Props)))
+function $isArrayOf_Lhello_world_ProductItemList$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lhello_world_ProductItemList$Props)))
 }
-function $asArrayOf_Lhello_world_MyComponent$Props(obj, depth) {
-  return (($isArrayOf_Lhello_world_MyComponent$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lhello.world.MyComponent$Props;", depth))
+function $asArrayOf_Lhello_world_ProductItemList$Props(obj, depth) {
+  return (($isArrayOf_Lhello_world_ProductItemList$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lhello.world.ProductItemList$Props;", depth))
 }
-const $d_Lhello_world_MyComponent$Props = new $TypeData().initClass({
-  Lhello_world_MyComponent$Props: 0
-}, false, "hello.world.MyComponent$Props", {
-  Lhello_world_MyComponent$Props: 1,
+const $d_Lhello_world_ProductItemList$Props = new $TypeData().initClass({
+  Lhello_world_ProductItemList$Props: 0
+}, false, "hello.world.ProductItemList$Props", {
+  Lhello_world_ProductItemList$Props: 1,
   O: 1,
   s_Product: 1,
   s_Equals: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lhello_world_MyComponent$Props.prototype.$classData = $d_Lhello_world_MyComponent$Props;
+$c_Lhello_world_ProductItemList$Props.prototype.$classData = $d_Lhello_world_ProductItemList$Props;
 const $f_jl_Byte__equals__O__Z = (function($thiz, that) {
   return Object.is($thiz, that)
 });
@@ -5355,7 +5355,7 @@ const $s_Lhello_world_App__render__Lhello_world_App__Lslinky_core_facade_ReactEl
   };
   const ret$3 = $i_react.createElement.apply($i_react, inst$3);
   inst$3[0] = null;
-  const stage = $m_Lhello_world_MyComponent$().apply__T__sjs_js_Array("test");
+  const stage = $m_Lhello_world_ProductItemList$().apply__T__sjs_js_Array("");
   if ((stage[0] === null)) {
     throw new $c_jl_IllegalStateException("This component has already been built into a ReactElement, and cannot be reused")
   };
@@ -5404,7 +5404,7 @@ function $a_Lhello_world_App() {
   };
   return $b_Lhello_world_App
 }
-const $s_Lhello_world_MyComponent__render__Lhello_world_MyComponent__Lslinky_core_facade_ReactElement = (function(this$1) {
+const $s_Lhello_world_ProductItemList__render__Lhello_world_ProductItemList__Lslinky_core_facade_ReactElement = (function(this$1) {
   const elem = $asArrayOf_T(this$1.ListArray, 1).get(0);
   const array = [elem];
   const mods = new $c_sjsr_WrappedVarArgs(array);
@@ -5592,13 +5592,13 @@ const $s_Lhello_world_MyComponent__render__Lhello_world_MyComponent__Lslinky_cor
   inst$5[0] = null;
   return ret$5
 });
-const $ps_Lhello_world_MyComponent__$anonfun$new$1__Lhello_world_MyComponent__V = (function(this$1) {
+const $ps_Lhello_world_ProductItemList__$anonfun$new$1__Lhello_world_ProductItemList__V = (function(this$1) {
   /*<skip>*/
 });
-let $b_Lhello_world_MyComponent = (void 0);
-function $a_Lhello_world_MyComponent() {
-  if ((!$b_Lhello_world_MyComponent)) {
-    class $c_Lhello_world_MyComponent extends $a_Lslinky_core_StatelessDefinition() {
+let $b_Lhello_world_ProductItemList = (void 0);
+function $a_Lhello_world_ProductItemList() {
+  if ((!$b_Lhello_world_ProductItemList)) {
+    class $c_Lhello_world_ProductItemList extends $a_Lslinky_core_StatelessDefinition() {
       constructor(arg) {
         const prep0 = arg;
         const jsProps = prep0;
@@ -5610,17 +5610,17 @@ function $a_Lhello_world_MyComponent() {
           "value": null
         });
         $m_Lslinky_core_annotations_react$().bump__F0__V(new $c_sjsr_AnonFunction0(((this\u00f8) => (() => {
-          $ps_Lhello_world_MyComponent__$anonfun$new$1__Lhello_world_MyComponent__V(this\u00f8)
+          $ps_Lhello_world_ProductItemList__$anonfun$new$1__Lhello_world_ProductItemList__V(this\u00f8)
         }))(this)));
         this.ListArray = $asArrayOf_T($makeNativeArrayWrapper($d_T.getArrayOf(), ["\u0425\u043b\u0435\u0431", "\u0413\u0440\u0435\u0447\u043a\u0430", "\u0421\u043f\u0438\u0447\u043a\u0438", "\u041c\u043e\u043b\u043e\u043a\u043e", "\u041c\u044b\u043b\u043e"]), 1)
       };
       "render"() {
-        return $s_Lhello_world_MyComponent__render__Lhello_world_MyComponent__Lslinky_core_facade_ReactElement(this)
+        return $s_Lhello_world_ProductItemList__render__Lhello_world_ProductItemList__Lslinky_core_facade_ReactElement(this)
       };
     }
-    $b_Lhello_world_MyComponent = $c_Lhello_world_MyComponent
+    $b_Lhello_world_ProductItemList = $c_Lhello_world_ProductItemList
   };
-  return $b_Lhello_world_MyComponent
+  return $b_Lhello_world_ProductItemList
 }
 const $ct_jl_ArrayIndexOutOfBoundsException__T__ = (function($thiz, s) {
   $ct_jl_Throwable__T__jl_Throwable__Z__Z__($thiz, s, null, true, true);

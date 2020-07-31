@@ -3,7 +3,7 @@ package hello.world
 import slinky.core._
 import slinky.core.annotations.react
 import slinky.web.ReactDOM
-import slinky.web.html.{i, _}
+import slinky.web.html._
 import org.scalajs.dom
 
 import scala.scalajs.js
@@ -18,8 +18,9 @@ object AppCSS extends js.Object
 object ReactLogo extends js.Object
 
 
-//Stateless React component for basic <li> items rendering through Array items
-@react class MyComponent extends StatelessComponent{
+// Component for basic list rendering through array items
+// with direct value assignment to the <li>
+ @react class ProductItemList extends StatelessComponent{
     case class Props(item: String)
     val ListArray = Array("Хлеб", "Гречка", "Спички", "Молоко", "Мыло")
       def render = {
@@ -33,7 +34,17 @@ object ReactLogo extends js.Object
       }
     }
 
+// But this should work another way:
+// Creating list of tuples with two items, then looping through the pairs
+// This should give an output of all list items
+
+//  val products = List(("Хлеб", 80), ("Гречка", 150), ("Спички", 50), ("Молоко", 100), ("Мыло", 40))
+//  for (product <- products) {
+//    println(product._1, product._2, product._3, product._4, product._5)
+//   }
+
 //Final App structure
+
 @react class App extends StatelessComponent {
   type Props = Unit
 
@@ -47,7 +58,7 @@ object ReactLogo extends js.Object
         div(className := "column col-9")(
           h2(className := "App-intro")("Список товаров")
         ),
-        MyComponent(item = "test")
+        ProductItemList(item = "")
       )
   }
 }
